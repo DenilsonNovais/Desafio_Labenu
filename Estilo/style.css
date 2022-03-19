@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+  background-color: #2f5b66;
+}
+
+.cabecario {
+  background-color: #132235;
+  height: 90px;
+}
