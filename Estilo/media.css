@@ -16,10 +16,8 @@
     margin: 0 auto;
   }
 
-  section > p {
-    justify-content: center;
-    text-align: justify;
-    margin: 0px auto;
+  section p {
+    margin: 10px;
   }
 
   h1 {
@@ -34,9 +32,20 @@
     text-align: center;
   }
 
-  form {
+  .fale_conosco_form {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
-    width: 100%;
+    width: 230px;
+  }
+
+  textarea {
+    display: flex;
+    width: 17em;
+    text-align: center;
+    justify-content: center;
   }
 
   input {

@@ -21,24 +21,29 @@
       </div>
 
       <nav>
-        <a href="#"><li>Quem Somos</li></a>
-        <a href="#"><li>Fale conosco</li></a>
-        <!-- <a href="#"><li>Sobre</li></a> -->
+        <a href="#quemSomos"><li>Quem Somos</li></a>
+        <a href="#faleConosco"><li>Fale conosco</li></a>
       </nav>
     </header>
 
     <main>
-      <section class="quem_somos">
+      <section class="quem_somos" id="quemSomos">
         <div class="quem_somos_conteudo">
           <h1><span>Quem Somos</span></h1>
           <h2>F4Life</h2>
-
           <p>
             F4Life é uma empresa de aluguéis de repúblicas para pessoas
-            universitárias. Similar aos modelos de Quinto Andar e Loft, a
-            empresa realiza reformas e prepara moradias para recepção de pessoas
-            universitárias em um ambiente específico e otimizado para a vida de
-            graduação.
+            universitárias. <br />
+            Similar aos modelos de Quinto Andar e Loft, a empresa realiza
+            reformas e prepara moradias para recepção de pessoas universitárias
+            em um ambiente específico e otimizado para a vida de graduação.
+            <br />
+            Temos as melhores ofertas em
+            <strong>Moradia Compartilhada</strong> e <strong>Kitnets.</strong>
+            <br />
+            Entre em contato, descreva o que está procurando, e receba as
+            principais novidades e promoção da <strong>F4Life</strong>,
+            personalizado para a sua necessidade.
           </p>
         </div>
 
@@ -47,34 +52,47 @@
         </figure>
       </section>
 
-      <section class="fale_conosco">
+      <section class="fale_conosco" id="faleConosco">
         <div>
           <h2>Fale Conosco</h2>
         </div>
         <form class="fale_conosco_form">
-          <input type="text" placeholder="Nome" required />
-          <input type="email" placeholder="E-mail" required />
-          <input type="tel" placeholder="Telefone" required />
+          <label for="nome"><strong>Nome </strong></label>
+          <input type="text" placeholder="Nome Completo" required />
+
+          <label for="email"><strong>E-mail </strong></label>
+          <input
+            type="email"
+            placeholder="email@domain.com"
+            required
+            id="email"
+          />
+
+          <label for="mensagem"><strong>Mensagem </strong></label>
+          <textarea
+            rows="6"
+            id="mensagem"
+            name="mensagem"
+            required
+            placeholder="Deixe uma mensagem"
+          ></textarea>
+
           <input type="submit" value="Enviar" required />
         </form>
       </section>
     </main>
     <footer class="rodape">
       <div class="icon">
-        <a target="_blank" href="https://github.com/DenilsonNovais">
+        <a target="_blank" href="https://twitter.com/i/flow/login">
           <i class="fab fa-twitter"></i>
         </a>
-        <a target="_blank" href="https://discord.com/channels/@me">
+        <a target="_blank" href="https://www.instagram.com">
           <i class="fab fa-instagram"></i>
         </a>
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/denilson-novais-dos-santos/"
-        >
+        <a target="_blank" href="https://www.facebook.com">
           <i class="fab fa-facebook"></i>
         </a>
-        <a target="_blank" href="https://www.facebook.com/denilson.novais.7/">
-          <!-- adiciona icone dentro da pagina -->
+        <a target="_blank" href="https://www.linkedin.com">
           <i class="fab fa-linkedin"></i>
         </a>
       </div>
