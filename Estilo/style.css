@@ -107,6 +107,10 @@ i {
   font-size: 4rem;
   color: white;
 }
+
+i:hover {
+  color: #6ddad3;
+}
 /* Formulário  */
 
 form [type="submit"] {
