@@ -2,24 +2,82 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Programa Desenvolve</title>
     <link rel="stylesheet" href="Estilo/reset.css" />
-    <link rel="stylesheet" href="./Estilo/style.css" />
+    <link href="Estilo/style.css" rel="stylesheet" />
+    <link href="Estilo/fonts.css" rel="stylesheet" />
+    <link href="Estilo/media.css" rel="stylesheet" />
+    <title>Landing Page</title>
+    <script
+      src="https://kit.fontawesome.com/6d6952c5be.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header class="cabecario">
-      <ul>
-        <li class="links"><a href="#"></a></li>
-        <li class="links"><a href="#"></a></li>
-        <li class="links"><a href="#"></a></li>
-        <li class="links"><a href="#"></a></li>
-      </ul>
+    <header>
+      <div>
+        <img src="imagens/f4life-logo.png" alt="Logo F4Life" />
+      </div>
+
+      <nav>
+        <a href="#"><li>Quem Somos</li></a>
+        <a href="#"><li>Fale conosco</li></a>
+        <!-- <a href="#"><li>Sobre</li></a> -->
+      </nav>
     </header>
-    <main class="principal">
-      <section class="fale_conosco"></section>
-      <section class="quem_somos"></section>
+
+    <main>
+      <section class="quem_somos">
+        <div class="quem_somos_conteudo">
+          <h1><span>Quem Somos</span></h1>
+          <h2>F4Life</h2>
+
+          <p>
+            F4Life é uma empresa de aluguéis de repúblicas para pessoas
+            universitárias. Similar aos modelos de Quinto Andar e Loft, a
+            empresa realiza reformas e prepara moradias para recepção de pessoas
+            universitárias em um ambiente específico e otimizado para a vida de
+            graduação.
+          </p>
+        </div>
+
+        <figure>
+          <img src="imagens/f4life.png" alt="F4Life" />
+        </figure>
+      </section>
+
+      <section class="fale_conosco">
+        <div>
+          <h2>Fale Conosco</h2>
+        </div>
+        <form class="fale_conosco_form">
+          <input type="text" placeholder="Nome" required />
+          <input type="email" placeholder="E-mail" required />
+          <input type="tel" placeholder="Telefone" required />
+          <input type="submit" value="Enviar" required />
+        </form>
+      </section>
     </main>
+    <footer class="rodape">
+      <div class="icon">
+        <a target="_blank" href="https://github.com/DenilsonNovais">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a target="_blank" href="https://discord.com/channels/@me">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/denilson-novais-dos-santos/"
+        >
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a target="_blank" href="https://www.facebook.com/denilson.novais.7/">
+          <!-- adiciona icone dentro da pagina -->
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
